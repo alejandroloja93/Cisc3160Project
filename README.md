@@ -1,6 +1,17 @@
 # Cisc3160Project
 Interpreter that takes inputs and is able to do basic math operations 
 
+Requirements:
+PYTHON 3 !!
+If using mac make sure to use import sys 
+
+Instructions:
+On windows:
+Run complier.py using the command py complier.py on the command line.
+
+On Mac:
+Run complier.py using command python complier.py on ther mac command line.  
+
 tok.py - This is the tokenizer, the language syntax which takes the group of integers, letters & symbols to peform operations. 
 
 text_buufer.py - This reads the upcoming parts of the text
