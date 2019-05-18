@@ -1,0 +1,46 @@
+Once complier.py is running try the followimg input:
+
+Sample Input :
+Example One 
+userinput :> A=2
+(None, None)
+userinput :> B=3
+(None, None)
+userinput :> A+B
+(5, 'integer')
+userinput :> Z = -(A+B)
+(None, None)
+userinput :> Z
+(-5, 'integer')
+userinput :>
+
+Example Two 
+userinput :> as
+Traceback (most recent call last):
+  File "complier.py", line 30, in <module>
+    main()
+  File "complier.py", line 17, in main
+    res = v.visit(node.asdict())
+  File "C:\Users\Alex\Desktop\Final\visitor.py", line 22, in visit
+    return self.valueof(node['value']), self.typeof(node['value'])
+  File "C:\Users\Alex\Desktop\Final\visitor.py", line 11, in valueof
+    return self.variables[name]['value']
+KeyError: 'as'
+
+Example three 
+userinput :> x = 0
+(None, None)
+userinput :> y = x
+(None, None)
+userinput :> z = ---(x+y)
+(None, None)
+userinput :> z
+(0, 'integer')
+userinput :> y
+(0, 'integer')
+userinput :> x
+(0, 'integer')
+userinput :>
+
+
+
